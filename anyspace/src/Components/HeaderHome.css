@@ -1,0 +1,7 @@
+#Home .nav-link{
+    font-family: "Merriweather", serif !important;
+}
+#Home .dropdown-item{
+    text-transform: capitalize;
+    font-family: "Merriweather", serif !important;
+}

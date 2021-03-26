@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AnySpazeApp</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">8Jf5FKfZJY0GMpmMdFSgnYvRuhN6Ymjyrk0Rea</string>
+</resources>

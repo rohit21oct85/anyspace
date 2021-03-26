@@ -1,0 +1,11 @@
+{
+  "name": "AnySpazeApp",
+  "displayName": "Any Spaze",
+  "slug":"any-sapze",
+  "platforms":[
+    "ios",
+    "android"
+  ],
+  "version":"0.0.1",
+  "orientation":"portrait"
+}

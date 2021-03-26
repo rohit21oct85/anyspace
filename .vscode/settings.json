@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": "backend",
+    "appService.defaultWebAppToDeploy": "/subscriptions/2ed9b8d1-7dc3-4a4b-93c1-f52b13225dd5/resourceGroups/anyspaze/providers/Microsoft.Web/sites/anyspaze"
+}

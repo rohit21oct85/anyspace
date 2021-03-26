@@ -1,0 +1,253 @@
+.contact-us-banner {
+    background-image: url("../img/contact/banner-img4331.jpg");
+    background-size: 100% 100%;
+}
+
+.contact-us-banner .overlay{
+    background-color:rgba(0,0,0,.45);
+    height:100%;
+    width:100%;
+}
+
+
+.keep-in-touch .section__title{
+    position:relative;
+}
+.keep-in-touch {
+    padding-top: 100px;
+    margin-bottom: -150px;
+    position: relative;
+}
+
+.keep-in-touch::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.keep-in-touch .section__title {
+    text-align: left !important;
+    padding-left: 20px;
+    font-size:32px !important;
+}
+
+.keep-in-touch .section-heading .section__title::before {
+    height: 100%;
+    width: 4px;
+    background: #d13420;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.address-info {
+    margin-top: 50px;
+}
+
+.address-inner-info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    max-width: 350px;
+}
+
+/* .address-inner-info:nth-of-type(3) {
+	margin-bottom: 0rem !important;
+} */
+
+.address-inner-info i {
+    font-size: 36px;
+    color: #d13420;
+    margin-right: 30px;
+}
+
+
+
+.address-box h4 {
+    font-size: 16px;
+    font-weight:500;
+    letter-spacing:2.5px;
+    text-transform:uppercase;
+}
+
+.address-box p{
+    font-weight:600;
+    font-size:14px;
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+
+
+.know-about-with-us {
+
+    background: url("../img/contact/banner-img433.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:80px;
+}
+
+
+.know-about-with-us .overlay{
+    background: rgba(209, 52, 32, .95);;
+    height:100%;
+    width:100%;
+    padding: 200px 0 100px;
+}
+
+
+.know-about-with-us .section__title {
+    color: #fff !important;
+    margin-bottom:10px !important;
+    font-size:38px !important;
+}
+
+.know-about-with-us p {
+    color:#fff !important;
+    text-align:center;
+    max-width:700px;
+    margin:auto;
+    font-weight:600 !important;
+    font-size:14px;
+    opacity:1
+}
+
+.know-about-with-us form {
+    max-width: 800px;
+    margin: auto;
+    /*text-align: center;*/
+    margin-top: 80px;
+}
+
+.know-about-with-us input {
+    height: 57px;
+    font-size: 17px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(255 255 255) !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: #fff !important;
+    transition: 0.2s;
+    box-shadow: none !important;
+    font-size:14px;
+}
+
+.know-about-with-us form textarea {
+    background: transparent !important;
+    outline: none !important;
+    color: #fff !important;
+    font-size: 14px;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255) !important;
+    resize: none;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.know-about-with-us form textarea:target {
+    /*color: #1a1a1a;*/
+    color: #fff !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+
+.know-about-with-us input::placeholder,.know-about-with-us textarea::placeholder {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.maps {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+
+.maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+.know-about-with-us .btn-default .inner{
+    width: 185px;
+}
+
+.know-about-with-us .btn-default .inner::after{
+    background: #49d3f6;
+}
+
+
+
+@media (max-width: 1199.98px) {
+    .keep-in-touch::before {
+        position: initial !important;
+    }
+
+    .keep-in-touch {
+        padding-top: 100px;
+        margin-bottom: initial !important;
+        position: relative;
+        padding-bottom: 100px;
+    }
+
+    .know-about-with-us {
+        padding: 100px 0 !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .maps iframe {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .know-about-with-us form {
+        max-width: 800px;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .know-about-with-us {
+        padding: 50px 0 !important;
+    }
+
+    .keep-in-touch {
+        padding-top: 50px;
+        /* margin-bottom:; */
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    .address-info {
+        margin-top: 50px;
+    }
+
+    .address-inner-info {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .maps {
+        margin-top: 20px;
+    }
+}

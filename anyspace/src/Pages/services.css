@@ -1,0 +1,6 @@
+.container {
+    max-width: 1140px;
+}
+.transport-services ul li {
+    text-transform: capitalize;
+}

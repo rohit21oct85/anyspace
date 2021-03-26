@@ -1,0 +1,27 @@
+{
+    "results": [
+        {
+            "location": {
+                "lat": 34.091158,
+                "lng": -118.2795188
+            },
+            "id": "1113d3dd7339f965caae39387dd808a9e877bc2e",
+            "warehouseName": "Flore Vegan",
+            "Addressline1":"xyx",
+            "City":"delhi",
+            "pin":"110077"
+        },
+        {
+            "location": {
+                "lat": 34.0771192,
+                "lng": -118.2587199
+            },
+            "id": "d8bc8d867ccf72cbc552e100238a0820628963ee",
+            "warehouseName": "Flore Vegan 1",
+            "Addressline1":"xyx",
+            "City":"delhi",
+            "pin":"110077"
+        }
+    ],
+    "status": "OK"
+}
